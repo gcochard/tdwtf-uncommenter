@@ -37,7 +37,7 @@ function getComments(elem) {
  * end ripped off section
  */
 getComments(document.getElementById('MainContent'));
-if(commentsArr.length && confirm('Unhide comments?')){
+if(commentsArr.length){
     var temp = null;
     for(var i=0,ii=commentsArr.length;i<ii;i++){
         temp = document.createElement('span');

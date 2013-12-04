@@ -41,7 +41,7 @@ if(commentsArr.length){
     var temp = null;
     for(var i=0,ii=commentsArr.length;i<ii;i++){
         temp = document.createElement('span');
-        temp.style.color='#888';
+        temp.style.color='#7A7';
         temp.innerHTML = '&lt;--'+commentsArr[i].nodeValue+'--&gt';
         commentsArr[i].parentNode.replaceChild(temp,commentsArr[i]);
         temp = null;
